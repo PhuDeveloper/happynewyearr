@@ -1,0 +1,56 @@
+.app {
+  max-width: 1300px;
+  margin: 0px auto;
+  position: relative;
+  .container {
+    .content {
+      img {
+        position: absolute;
+        width: 100%;
+        height: 658px;
+      }
+      .listItem {
+        display: flex;
+        position: absolute;
+        
+        top: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .content__item {
+          width: 100px;
+          height: 150px;
+          margin: 50px;
+          
+          h1 {
+            display: flex;
+            background-color: #fff;
+            color: #272727;
+            height: 60%;
+            justify-content: center;
+            border-top-right-radius: 25px;
+            border-top-left-radius: 25px;
+            align-items: center;
+          }
+          h2 {
+            display: flex;
+            height: 40%;
+            text-align: center;
+            justify-content: center;
+            color: #5c5d6c;
+            align-items: center;
+            background-color: #eee;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+audio{
+  position: absolute;
+  top: 500px;
+  left: 39%;
+  
+}

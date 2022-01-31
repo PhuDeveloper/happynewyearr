@@ -1,0 +1,70 @@
+.app {
+  max-width: 1300px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.app .container .content img {
+  position: absolute;
+  width: 100%;
+  height: 658px;
+}
+
+.app .container .content .listItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.app .container .content .listItem .content__item {
+  width: 100px;
+  height: 150px;
+  margin: 50px;
+}
+
+.app .container .content .listItem .content__item h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  color: #272727;
+  height: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .container .content .listItem .content__item h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #5c5d6c;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+audio {
+  position: absolute;
+  top: 500px;
+  left: 39%;
+}
+/*# sourceMappingURL=style.css.map */
